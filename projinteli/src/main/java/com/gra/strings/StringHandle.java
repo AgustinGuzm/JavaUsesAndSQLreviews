@@ -1,7 +1,8 @@
 package com.gra.strings;
 
 public class StringHandle {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         String mystr="Agustin Guzman";
         //gnirts yM
         //            123456789
