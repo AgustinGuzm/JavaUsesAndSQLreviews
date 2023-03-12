@@ -1,4 +1,7 @@
 package com.gra;
+
+import java.util.Objects;
+
 /*
 Scenary: 1- To create a list five of friends and print out this.
          2- Use the list friend that includes gender (M/F) and prints out this.
@@ -12,6 +15,7 @@ public class arraysHandle {
         printoutBasicArray(myFriends);
         pritnoutMatrix(myfriendsGender) ;
         pritnoutSecondMatrix(GenderSecondVer) ;
+//        anotherfunctions(myfriendsGender);
     }
     private static void printoutBasicArray(String[] myFriends)
     {
@@ -45,7 +49,6 @@ public class arraysHandle {
             for (int j = 0; j <myfrinedsGender[i].length ; j++) {
                 System.out.println(myfrinedsGender[i][j]+" "+myfrinedsGender[i+1][j]);
             }
-
         }
         //String.format("%1$-" + 8 + "s", str).replace(' ', '0');
         System.out.println("------ PRINTING A MATRIX)-------");
@@ -67,5 +70,8 @@ public class arraysHandle {
             }
             System.out.println();
         }
+    }
+    private static void anotherfunctions(String[][] myfriendsGender){
+        //Object.keys(myfriendsGender).length
     }
 }
